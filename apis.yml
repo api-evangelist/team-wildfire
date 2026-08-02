@@ -1,7 +1,27 @@
 aid: team-wildfire
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/team-wildfire.png
 name: Team Wildfire
-description: Team Wildfire is a company surfaced as a portfolio company of techstars and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Team Wildfire develops jet engine-enabled fire suppression technology
+  built to prevent catastrophic wildfire losses. Its mobile units, the "Hurricane"
+  and "Storm Cell", apply fire retardant at scale to deny ground to advancing
+  wildfires. The company offers fireground services, evacuation route hardening,
+  asset protection, prescribed fire containment, and military base protection. Team
+  Wildfire is a physical hardware and services company backed by Techstars; it
+  publishes a marketing and services website but no public API, developer portal,
+  SDKs, or developer documentation. This API Evangelist profile was surfaced as a
+  Techstars portfolio lead and enriched with the identity and domain-security
+  signals available for a non-API company.
 url: https://raw.githubusercontent.com/api-evangelist/team-wildfire/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Wildfire
+- Fire Suppression
+- Hardware
+- Public Safety
+- Emergency Response
+- Techstars
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,25 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/team-wildfire-domain-security.yml
+- type: WellKnown
+  url: well-known/team-wildfire-well-known.yml
 - type: Website
   url: https://teamwildfire.com/
+- type: Support
+  url: https://www.teamwildfire.com/contact-us
+x-social:
+- type: LinkedIn
+  url: https://www.linkedin.com/company/teamwildfire
+- type: Instagram
+  url: http://instagram.com/teamwildfirepage
+- type: Facebook
+  url: https://www.facebook.com/TeamWildfirePage
+- type: YouTube
+  url: https://www.youtube.com/teamwildfire
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

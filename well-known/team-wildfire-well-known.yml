@@ -1,0 +1,23 @@
+generated: '2026-07-21'
+method: probed
+source: live probes of https://teamwildfire.com/.well-known/*
+host: teamwildfire.com
+endpoints:
+- path: /.well-known/security.txt
+  status: 400
+  file: null
+- path: /.well-known/openid-configuration
+  status: 400
+  file: null
+- path: /.well-known/oauth-authorization-server
+  status: 400
+  file: null
+- path: /.well-known/api-catalog
+  status: 400
+  file: null
+- path: /.well-known/ai-plugin.json
+  status: 400
+  file: null
+notes: No .well-known endpoints are published. teamwildfire.com is a marketing
+  site for a physical wildfire-suppression hardware/services company; there is no
+  API, developer portal, or authorization server surface.
